@@ -86,14 +86,14 @@
                 </div>
                 <div class="info info-horizontal info-hover-primary mt-5">
                     <div class="description">
-                        <h5 class="title">Veg Sandwich</h5>
+                        <h5 class="title">Grilled Pineapple Paloma</h5>
                         <p> <strong>Ingredients:</strong> club soda, sliced lemon, sliced grapefruit, sugar, salt, ice cubes, tequila </p>
                         <a href="/reviews" class="text-success">Review</a>
                     </div>
                 </div>
                 <div class="info info-horizontal info-hover-primary mt-5">
                     <div class="description">
-                        <h5 class="title">Pasta</h5>
+                        <h5 class="title">Mojito</h5>
                         <p> <strong>Ingredients:</strong> carbonated water, sugar, lime wedges, lemon flavored rum, ice cubes, mint leaves </p>
                         <a href="/reviews" class="text-success">Review</a>
                     </div>
