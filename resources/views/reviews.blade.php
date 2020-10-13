@@ -10,10 +10,11 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <!-- Theme CSS -->
     <link type="text/css" href="assets/css/argon-design-system.min.css" rel="stylesheet">
-    <title>Welcome</title>
+    <title>Reviews</title>
 </head>
 <body class="landing-page">
 
+<!-- HEADER -->
 <nav class="navbar navbar-main navbar-expand-lg navbar-light navbar-transparent headroom">
     <div class="container">
         <a class="navbar-brand" href="#">RESTAURANT</a>
@@ -36,7 +37,6 @@
                     </div>
                 </div>
             </div>
-
             <ul class="navbar-nav ml-lg-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">
@@ -49,12 +49,9 @@
                     </a>
                 </li>
             </ul>
-
         </div>
     </div>
 </nav>
-
-
 
 <div class="section section-hero section-shaped">
     <div class="shape shape-style-1 shape-primary">
@@ -74,12 +71,20 @@
             <div class="col px-0">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h1 class="text-white display-1">Best Food</h1>
-                        <h2 class="display-4 font-weight-normal text-white">The time is right now!</h2>
-                        <div class="btn-wrapper mt-4">
+                        <h1 class="text-white display-1">Reviews</h1>
+                        <h2 class="display-4 font-weight-normal text-white">Learn more about us ... </h2>
+                        <br/>
+                        <span class="badge badge-success badge-pill my-2">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                     Rating</span>
+                        <div class="btn-wrapper mt-2">
                             <a href="#" class="btn btn-warning btn-icon mt-3 mb-sm-0">
                                 <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span>
-                                <span class="btn-inner--text">Order</span>
+                                <span class="btn-inner--text">Start Reading</span>
                             </a>
                         </div>
                     </div>
@@ -94,60 +99,20 @@
     </div>
 </div>
 
-<div class="section features-1 justify-center text-center">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="ol-md-8 mx-auto text-center">
-                <h2 class="display-3">Menu</h2>
-                <br/>
-                <div class="info info-horizontal info-hover-primary ">
-                    <div class="description pl-4">
-                        <h5 class="title">Homemade Soup</h5>
-                        <p>Ingredients</p>
-                        <a href="#" class="text-success">Order</a>
-                    </div>
-                </div>
-                <div class="info info-horizontal info-hover-primary mt-5">
-                    <div class="description pl-4">
-                        <h5 class="title">Veg Sandwich</h5>
-                        <p>Ingredients</p>
-                        <a href="#" class="text-success">Order</a>
-                    </div>
-                </div>
-                <div class="info info-horizontal info-hover-primary mt-5">
-                    <div class="description pl-4">
-                        <h5 class="title">Pasta</h5>
-                        <p>Ingredients</p>
-                        <a href="#" class="text-success">Order</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
+<!-- REVIEWS -->
 <div class="section features-1">
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto text-center">
-
-                <span class="badge badge-primary badge-pill mb-3">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    Rating</span>
-                <h3 class="display-3">Reviews</h3>
-                <p class="lead">Wanna know more about us?</p>
-                <button class="btn btn-warning btn-round">Start Reading</button>
+                <p class="lead">FORM</p>
+                <button class="btn btn-warning btn-round">Leave a Review</button>
             </div>
         </div>
     </div>
 </div>
 <br><br>
+
+<!-- FOOTER -->
 <footer class="footer">
     <div class="container">
         <div class="row row-grid align-items-center mb-5">
@@ -188,8 +153,7 @@
     </div>
 </footer>
 
-
-<!-- Core -->
+<!-- Core JS -->
 <script src="assets/vendor/jquery/jquery.min.js" defer></script>
 <script src="assets/vendor/popper/popper.min.js" defer></script>
 <script src="assets/vendor/bootstrap/bootstrap.min.js" defer></script>
