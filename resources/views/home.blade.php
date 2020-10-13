@@ -10,51 +10,33 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <!-- Theme CSS -->
     <link type="text/css" href="assets/css/argon-design-system.min.css" rel="stylesheet">
-    <title>Welcome</title>
+    <!-- Star Rating -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" href="assets/css/rating.css" rel="stylesheet">
+    <title>Reviews</title>
 </head>
 <body class="landing-page">
 
+<!-- HEADER -->
 <nav class="navbar navbar-main navbar-expand-lg navbar-light navbar-transparent headroom">
     <div class="container">
         <a class="navbar-brand" href="#">RESTAURANT</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-default">
-            <div class="navbar-collapse-header">
-                <div class="row">
-                    <div class="col-6 collapse-brand">
-                        <a href="javascript:void(0)">
-                            <img src="/assets/img/brand/blue.png">
-                        </a>
-                    </div>
-                    <div class="col-6 collapse-close">
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-                            <span></span>
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <ul class="navbar-nav ml-lg-auto">
+        <div id="navbar-default">
+            <ul class="navbar-nav ml-lg-auto flex-row">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="/">
                         <span class="">Home</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ml-4">
                     <a class="nav-link" href="/reviews">
                         <span class="">Reviews</span>
                     </a>
                 </li>
             </ul>
-
         </div>
     </div>
 </nav>
-
-
 
 <div class="section section-hero section-shaped">
     <div class="shape shape-style-1 shape-primary">
@@ -140,18 +122,25 @@
                     Rating</span>
                 <h3 class="display-3">Reviews</h3>
                 <p class="lead">Wanna know more about us?</p>
-                <button class="btn btn-warning btn-round">Start Reading</button>
+                <a href="/reviews"><button class="btn btn-warning btn-round">Start Reading</button></a>
             </div>
         </div>
     </div>
 </div>
 <br><br>
+
+<!-- FOOTER -->
 <footer class="footer">
     <div class="container">
         <div class="row row-grid align-items-center mb-5">
             <div class="col-lg-6">
-                <h3 class="text-success font-weight-light mb-2">Thank you for ordering with us!</h3>
-                <h4 class="mb-0 font-weight-light">Let's get in touch.</h4>
+                <h3 class="text-success font-weight-light mb-2">Thank you for supporting us!</h3>
+                <h4 class="mb-0 font-weight-light">Let's get in touch...</h4>
+                <br/>
+                <h6 class="mb-0 font-weight-light">Marie-joselaan 23 <br/> 8370 <br/> Blankenberge <br/> Belgium </h6>
+                <br/>
+                <h6 class="font-weight-light"><strong>Opened Daily</strong> from 10-17h</h6>
+                <h6 class="font-weight-light"><i>Sundays Closed</i></h6>
             </div>
             <div class="col-lg-6 text-lg-center btn-wrapper">
                 <button target="_blank" href="#" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
@@ -169,16 +158,16 @@
         <div class="row align-items-center justify-content-md-between">
             <div class="col-md-6">
                 <div class="copyright">
-                    © 2020 <a href="" target="_blank">Nicol Saha</a>.
+                    © 2020 <a href="https://github.com/NicolSaha/intro-laravel" target="_blank">Nicol Saha</a>
                 </div>
             </div>
             <div class="col-md-6">
                 <ul class="nav nav-footer justify-content-end">
                     <li class="nav-item">
-                        <a href="" class="nav-link" target="_blank">Home</a>
+                        <a href="/" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link" target="_blank">Reviews</a>
+                        <a href="/reviews" class="nav-link">Reviews</a>
                     </li>
                 </ul>
             </div>
@@ -186,8 +175,10 @@
     </div>
 </footer>
 
-
-<!-- Core -->
+<!-- Star Rating JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assets/ratingfunction.js" type="text/javascript"></script>
+<!-- Core JS -->
 <script src="assets/vendor/jquery/jquery.min.js" defer></script>
 <script src="assets/vendor/popper/popper.min.js" defer></script>
 <script src="assets/vendor/bootstrap/bootstrap.min.js" defer></script>
