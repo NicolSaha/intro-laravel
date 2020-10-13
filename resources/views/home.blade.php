@@ -13,14 +13,14 @@
     <!-- Star Rating -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" href="assets/css/rating.css" rel="stylesheet">
-    <title>Reviews</title>
+    <title>Welcome</title>
 </head>
 <body class="landing-page">
 
 <!-- HEADER -->
 <nav class="navbar navbar-main navbar-expand-lg navbar-light navbar-transparent headroom">
     <div class="container">
-        <a class="navbar-brand" href="#">RESTAURANT</a>
+        <a class="navbar-brand" href="#"><img src="assets/img/cocktail.svg" width="25%"/>COCKTAIL BAR</a>
         <div id="navbar-default">
             <ul class="navbar-nav ml-lg-auto flex-row">
                 <li class="nav-item">
@@ -56,19 +56,14 @@
             <div class="col px-0">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h1 class="text-white display-1">Best Food</h1>
-                        <h2 class="display-4 font-weight-normal text-white">The time is right now!</h2>
-                        <div class="btn-wrapper mt-4">
-                            <a href="#" class="btn btn-warning btn-icon mt-3 mb-sm-0">
-                                <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span>
-                                <span class="btn-inner--text">Order</span>
-                            </a>
-                        </div>
+                        <h1 class="text-white displaHomemade Soupy-1">Best Cocktails</h1>
+                        <h2 class="display-4 font-weight-normal text-warning">Try one today!</h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <img src="assets/img/cocktailbar.jpg" class="img-fluid mb-4" alt="Cocktail Bar Picture">
     <div class="separator separator-bottom separator-skew zindex-100">
         <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
@@ -84,63 +79,41 @@
                 <br/>
                 <div class="info info-horizontal info-hover-primary">
                     <div class="description">
-                        <h5 class="title">Homemade Soup</h5>
-                        <p>Ingredients</p>
-                        <a href="#" class="text-success">Order</a>
+                        <h5 class="title">Sunrise Mimosa</h5>
+                        <p> <strong> Ingredients:</strong> pineapple juice, orange juise, lime juice, sliced pineapple, sliced orange, sliced lemon, Processo, and Campari</p>
+                        <a href="/reviews" class="text-success">Review</a>
                     </div>
                 </div>
                 <div class="info info-horizontal info-hover-primary mt-5">
                     <div class="description">
                         <h5 class="title">Veg Sandwich</h5>
-                        <p>Ingredients</p>
-                        <a href="#" class="text-success">Order</a>
+                        <p> <strong>Ingredients:</strong> club soda, sliced lemon, sliced grapefruit, sugar, salt, ice cubes, tequila </p>
+                        <a href="/reviews" class="text-success">Review</a>
                     </div>
                 </div>
                 <div class="info info-horizontal info-hover-primary mt-5">
                     <div class="description">
                         <h5 class="title">Pasta</h5>
-                        <p>Ingredients</p>
-                        <a href="#" class="text-success">Order</a>
+                        <p> <strong>Ingredients:</strong> carbonated water, sugar, lime wedges, lemon flavored rum, ice cubes, mint leaves </p>
+                        <a href="/reviews" class="text-success">Review</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="section features-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 mx-auto text-center">
-
-                <span class="badge badge-primary badge-pill mb-3">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    Rating</span>
-                <h3 class="display-3">Reviews</h3>
-                <p class="lead">Wanna know more about us?</p>
-                <a href="/reviews"><button class="btn btn-warning btn-round">Start Reading</button></a>
-            </div>
-        </div>
-    </div>
-</div>
-<br><br>
 
 <!-- FOOTER -->
 <footer class="footer">
     <div class="container">
         <div class="row row-grid align-items-center mb-5">
             <div class="col-lg-6">
-                <h3 class="text-success font-weight-light mb-2">Thank you for supporting us!</h3>
-                <h4 class="mb-0 font-weight-light">Let's get in touch...</h4>
+                <h4 class="mb-0 font-weight-normal">Let's get in touch...</h4>
                 <br/>
                 <h6 class="mb-0 font-weight-light">Marie-joselaan 23 <br/> 8370 <br/> Blankenberge <br/> Belgium </h6>
                 <br/>
-                <h6 class="font-weight-light"><strong>Opened Daily</strong> from 10-17h</h6>
-                <h6 class="font-weight-light"><i>Sundays Closed</i></h6>
+                <h6 class="font-weight-light"><strong>Opened Daily</strong> from 17.30-01.30h</h6>
+                <h6 class="font-weight-light"><i>Mondays Closed</i></h6>
             </div>
             <div class="col-lg-6 text-lg-center btn-wrapper">
                 <button target="_blank" href="#" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">

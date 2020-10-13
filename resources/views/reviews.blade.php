@@ -20,7 +20,7 @@
 <!-- HEADER -->
 <nav class="navbar navbar-main navbar-expand-lg navbar-light navbar-transparent headroom">
     <div class="container">
-        <a class="navbar-brand" href="#">RESTAURANT</a>
+        <a class="navbar-brand" href="#"><img src="assets/img/cocktail.svg" width="25%"/>COCKTAIL BAR</a>
         <div id="navbar-default">
             <ul class="navbar-nav ml-lg-auto flex-row">
                 <li class="nav-item">
@@ -53,11 +53,12 @@
     </div>
     <div class="page-header">
         <div class="container shape-container d-flex align-items-center py-lg">
+
             <div class="col px-0">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <h1 class="text-white display-1">Reviews</h1>
-                        <h2 class="display-4 font-weight-normal text-white">Learn more about us ... </h2>
+                        <h1 class="text-white display-1">Customer Reviews</h1>
+                        <h2 class="display-4 font-weight-normal text-warning">Rate your order</h2>
                         <br/>
                         <span class="badge badge-success badge-pill my-2">
                             <i class="fa fa-star checked" aria-hidden="true"></i>
@@ -65,18 +66,13 @@
                             <i class="fa fa-star checked" aria-hidden="true"></i>
                             <i class="fa fa-star checked" aria-hidden="true"></i>
                             <i class="fa fa-star " aria-hidden="true"></i>
-                     Rating</span>
-                        <div class="btn-wrapper mt-2">
-                            <a href="#" class="btn btn-warning btn-icon mt-3 mb-sm-0">
-                                <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span>
-                                <span class="btn-inner--text">Start Reading</span>
-                            </a>
-                        </div>
+                     Overall Rating</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <img src="assets/img/cocktailbar.jpg" class="img-fluid mb-4" alt="Cocktail Bar Picture">
     <div class="separator separator-bottom separator-skew zindex-100">
         <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
@@ -89,7 +85,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto text-center">
-                <form method="POST">
+                <form method="post">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group rating-form">
@@ -106,12 +102,12 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="fistName" placeholder="First Name" required>
+                                <input type="text" class="form-control" id="fistName" placeholder="First Name" required>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="lastName" placeholder="Last Name" required>
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
                             </div>
                         </div>
                     </div>
@@ -123,7 +119,7 @@
                         </div>
                     </div>
                 </form>
-                <button class="btn btn-warning btn-round">Submit</button>
+                <button type="submit" class="btn btn-warning btn-round">Submit</button>
             </div>
         </div>
     </div>
@@ -135,13 +131,12 @@
     <div class="container">
         <div class="row row-grid align-items-center mb-5">
             <div class="col-lg-6">
-                <h3 class="text-success font-weight-light mb-2">Thank you for supporting us!</h3>
-                <h4 class="mb-0 font-weight-light">Let's get in touch...</h4>
+                <h4 class="mb-0 font-weight-normal">Let's get in touch...</h4>
                 <br/>
                 <h6 class="mb-0 font-weight-light">Marie-joselaan 23 <br/> 8370 <br/> Blankenberge <br/> Belgium </h6>
                 <br/>
-                <h6 class="font-weight-light"><strong>Opened Daily</strong> from 10-17h</h6>
-                <h6 class="font-weight-light"><i>Sundays Closed</i></h6>
+                <h6 class="font-weight-light"><strong>Opened Daily</strong> from 17.30-01.30h</h6>
+                <h6 class="font-weight-light"><i>Mondays Closed</i></h6>
             </div>
             <div class="col-lg-6 text-lg-center btn-wrapper">
                 <button target="_blank" href="#" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
@@ -178,6 +173,7 @@
 
 <!-- Star Rating JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>
 <script src="assets/ratingfunction.js" type="text/javascript"></script>
 <!-- Core JS -->
 <script src="assets/vendor/jquery/jquery.min.js" defer></script>
