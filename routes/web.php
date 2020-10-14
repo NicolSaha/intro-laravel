@@ -2,10 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/reviews', function () {
-    return view('reviews');
-});
+Route::get('/', 'App\Http\Controllers\HomeController@show');
+Route::get('/reviews', 'App\Http\Controllers\ReviewsController@show');
