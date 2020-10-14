@@ -25,12 +25,12 @@
             <ul class="navbar-nav ml-lg-auto flex-row">
                 <li class="nav-item">
                     <a class="nav-link" href="/">
-                        <span class="{{ Request::path() === '/' ? 'text-white' : '' }}">Home</span>
+                        <span class="{{ Request::path() === '/' ? 'text-white font-weight-bold' : 'text-light' }}">Home</span>
                     </a>
                 </li>
                 <li class="nav-item ml-4">
                     <a class="nav-link" href="/reviews">
-                        <span class="{{ Request::path() === '/reviews' ? 'text-white' : '' }}">Reviews</span>
+                        <span class="{{ Request::path() === 'reviews' ? 'text-white font-weight-bold' : 'text-light' }}">Reviews</span>
                     </a>
                 </li>
             </ul>
