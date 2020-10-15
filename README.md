@@ -11,6 +11,9 @@ They could wait a few months to see if the changes work, but they would like som
 - Header of both pages will contain the restaurant's logo and the links to the two pages (Home and Reviews)
 - Footer of both pages will contain the restaurant's address and opening hours
 
+## 🎓 Live Version Heroku
+- [Cocktail Bar Laravel](http://intro-laravel-nicolsaha.herokuapp.com/)
+
 ## 🛠 Built with
 - [PHP](https://www.php.net/)
 - [Laravel](https://laravel.com/)
