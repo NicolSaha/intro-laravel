@@ -1,4 +1,4 @@
-@extends ('layout')
+@extends ('layouts.layout')
 
 @section('content')
 <div class="section features-1">
@@ -11,7 +11,7 @@
                         <div class="col-md-12">
                             <div class="form-group rating-form">
                                     <span class="rating-star">
-                                        <input class="form-control" type="radio" name="rating" value="5"><span class="star"></span>
+                                        <input class="form-control" type="radio" name="rating" value="5" required><span class="star"></span>
                                         <input class="form-control" type="radio" name="rating" value="4"><span class="star"></span>
                                         <input class="form-control" type="radio" name="rating" value="3"><span class="star"></span>
                                         <input class="form-control" type="radio" name="rating" value="2"><span class="star"></span>

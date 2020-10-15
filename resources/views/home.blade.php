@@ -1,4 +1,4 @@
-@extends ('layout')
+@extends ('layouts.layout')
 
 @section('content')
 <div class="section features-1 justify-center text-center">
