@@ -18,7 +18,7 @@ class CreateReviewsTable extends Migration
             $table->string('FirstName', 100);
             $table->string('LastName', 100);
             $table->integer('StarRating');
-            $table->text('ReviewText');
+            $table->text('ReviewText')->nullable();
             $table->timestamps();
         });
     }
