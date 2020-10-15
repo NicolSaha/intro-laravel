@@ -52,7 +52,11 @@
 @foreach ($reviews as $review)
     <div class="card text-center">
         <div class="card-header  bg-success">
-            <h5><strong>Rating:</strong> {{ $review->StarRating }} Stars</h5>
+
+            @for ($i=0; $i<$review->StarRating; $i++)
+               <i class="fa fa-star text-secondary" aria-hidden="true"></i>
+            @endfor
+
              </div>
         <div class="card-body">
             <i><p><strong>Written by</strong> {{ $review->FirstName }} {{ $review->LastName }}</p></i>
