@@ -13,4 +13,24 @@ class ReviewsController extends Controller
         $reviews = Review::all();
         return view('reviews', ['reviews' => $reviews]);
   }
+
+    public function create(){
+        $reviews = Review::all();
+        return view('reviews.create');
+  }
+
+
+    public function store(){
+        $review = new Review ();
+
+        $review->FirstName = request('firstName');
+        $review->LastName = request('lastName');
+        $review->StarRating = request('rating');
+        $review->ReviewText = request('reviewText');
+
+        $review->save();
+
+        return redirect('/reviews');
+    }
+
 }

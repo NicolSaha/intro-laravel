@@ -6,7 +6,8 @@
         <div class="row">
             <div class="col-md-8 mx-auto text-center">
                 <h2 class="display-3 text-warning">Leave a Review</h2>
-                <form action="" method="POST">
+                <form action="/reviews" method="POST">
+                    @csrf
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group rating-form">
