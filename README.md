@@ -20,4 +20,4 @@ They could wait a few months to see if the changes work, but they would like som
 
 ### 👩🏻‍💻 License 
 This project is MIT licensed.
-Copyright © 2020 Nicol Saha
+© 2020 Nicol Saha
