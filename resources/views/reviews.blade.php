@@ -5,7 +5,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto text-center">
-                <form action="" method="GET">
+                <h2 class="display-3 text-warning">Leave a Review</h2>
+                <form action="" method="POST">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group rating-form">
@@ -50,7 +51,7 @@
 <!-- REVIEWS -->
 @foreach ($reviews as $review)
     <div class="card text-center">
-        <div class="card-header">
+        <div class="card-header  bg-success">
             <h5><strong>Rating:</strong> {{ $review->StarRating }} Stars</h5>
              </div>
         <div class="card-body">

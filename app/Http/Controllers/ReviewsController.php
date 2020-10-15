@@ -12,5 +12,5 @@ class ReviewsController extends Controller
     public function show(){
         $reviews = Review::all();
         return view('reviews', ['reviews' => $reviews]);
-    }
+  }
 }

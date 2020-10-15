@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="ol-md-8 mx-auto text-center">
-                <h2 class="display-3">Menu</h2>
+                <h2 class="display-3 text-warning">Menu</h2>
                 <br/>
                 <div class="info info-horizontal info-hover-primary">
                     <div class="description">
