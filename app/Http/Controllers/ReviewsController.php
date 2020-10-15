@@ -16,7 +16,7 @@ class ReviewsController extends Controller
 
     public function create(){
         $reviews = Review::all();
-        return view('reviews.create');
+        return view('reviews');
   }
 
 
