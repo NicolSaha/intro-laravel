@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto text-center">
-                <form action="#" method="GET">
+                <form action="" method="GET">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group rating-form">
@@ -46,4 +46,18 @@
     </div>
 </div>
 <br><br>
+
+<!-- REVIEWS -->
+@foreach ($reviews as $review)
+    <div class="card text-center">
+        <div class="card-header">
+            <h5><strong>Rating:</strong> {{ $review->StarRating }} Stars</h5>
+             </div>
+        <div class="card-body">
+            <i><p><strong>Written by</strong> {{ $review->FirstName }} {{ $review->LastName }}</p></i>
+            <p>{{ $review->ReviewText }}</p>
+        </div>
+    </div>
+    @endforeach
+
 @endsection
