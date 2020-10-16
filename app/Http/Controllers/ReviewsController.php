@@ -9,16 +9,10 @@ use App\Models\Review;
 
 class ReviewsController extends Controller
 {
-    public function show(){
+    public function index(){
         $reviews = Review::all();
         return view('reviews', ['reviews' => $reviews]);
   }
-
-    public function create(){
-        $reviews = Review::all();
-        return view('reviews');
-  }
-
 
     public function store(){
         $review = new Review ();
