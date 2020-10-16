@@ -33,7 +33,7 @@
     </div>
     <br/>
     <br/>
-    <div class="col-lg-6 text-center -mb-10">
+    <div class="col-6 text-center -mb-10">
         <p class="h1 text-white">Hi there ... 👋</p>
         <p class="lead text-white">Thank you for visiting our page!</p>
     </div>
