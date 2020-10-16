@@ -5,7 +5,6 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="ol-md-8 mx-auto text-center">
-                <img src="assets/img/cocktailbar.jpg" class="img-fluid my-4 rounded" alt="Cocktail Bar Picture">
                 <h2 class="display-3 text-warning">Menu</h2>
                 <br/>
                 <div class="info info-horizontal info-hover-primary">
@@ -29,6 +28,7 @@
                         <a href="/reviews" class="text-success">Review</a>
                     </div>
                 </div>
+                <img src="assets/img/cocktailbar.jpg" class="img-fluid my-4 rounded" alt="Cocktail Bar Picture">
             </div>
         </div>
     </div>
