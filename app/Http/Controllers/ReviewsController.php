@@ -10,7 +10,7 @@ use App\Models\Review;
 class ReviewsController extends Controller
 {
     public function index(){
-        $reviews = Reviews::orderBy('id', 'DESC')->get()->take(10);
+        $reviews = Review::orderBy('id', 'DESC')->get()->take(10);
         return view('reviews', ['reviews' => $reviews]);
   }
 
