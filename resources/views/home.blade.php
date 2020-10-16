@@ -28,7 +28,7 @@
                         <a href="/reviews" class="text-success">Review</a>
                     </div>
                 </div>
-                <img src="assets/img/cocktailbar.jpg" class="img-fluid my-4" alt="Cocktail Bar Picture">
+                <img src="assets/img/cocktailbar.jpg" class="img-fluid my-4 rounded" alt="Cocktail Bar Picture">
             </div>
         </div>
     </div>
