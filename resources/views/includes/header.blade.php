@@ -32,9 +32,10 @@
         <span class="span-100"></span>
     </div>
     <br/>
-    <div class="col-lg-6 text-center text-white">
-        <p class="h1">Hi there ... 👋</p>
-        <p class="lead">Thank you for visiting our page!</p>
+    <br/>
+    <div class="col-lg-6 text-center -mb-10">
+        <p class="h1 text-white">Hi there ... 👋</p>
+        <p class="lead text-white">Thank you for visiting our page!</p>
     </div>
 
     <div class="separator separator-bottom separator-skew zindex-100">
