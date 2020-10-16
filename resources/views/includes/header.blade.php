@@ -31,9 +31,10 @@
         <span class="span-50"></span>
         <span class="span-100"></span>
     </div>
-    <div class="col-lg-6 text-center">
-        <p class="h1"> Hi there ... !</p>
-        <p class="lead"> Hi there ... !</p>
+    <br/>
+    <div class="col-lg-6 text-center text-white">
+        <p class="h1">Hi there ... 👋</p>
+        <p class="lead">Thank you for visiting our page!</p>
     </div>
 
     <div class="separator separator-bottom separator-skew zindex-100">
